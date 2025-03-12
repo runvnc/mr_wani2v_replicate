@@ -64,10 +64,10 @@ async def image_to_video(image: Union[str, Image.Image], prompt: str = "A woman 
         "max_area": "832x480",
         "fast_mode": "Off",
         "num_frames": 81,
-        "sample_shift": 1,
+        "sample_shift": 1.5,
         "sample_steps": 30,
         "frames_per_second": 24,
-        "sample_guide_scale": 9
+        "sample_guide_scale": 8
     }
     
     try:
