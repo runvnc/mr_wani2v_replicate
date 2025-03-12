@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mr_wani2v_replicate"
+version = "1.0.0"
+description = "Convert image to video using replicate's wan-2.1-i2v-480p model"
+requires-python = ">=3.8"
+dependencies = [
+    "nanoid",
+    "Pillow",
+    "replicate"
+]
