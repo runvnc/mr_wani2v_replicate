@@ -65,7 +65,7 @@ async def image_to_video(image: Union[str, Image.Image], prompt: str = "A woman 
         "fast_mode": "Off",
         "num_frames": 81,
         "sample_shift": 2,
-        "sample_steps": 50,
+        "sample_steps": 40,
         "frames_per_second": 24,
         "sample_guide_scale": 4
     }
